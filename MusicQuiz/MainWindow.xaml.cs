@@ -23,12 +23,12 @@ namespace MusicQuiz
     {
         private MediaPlayer mediaPlayer = new MediaPlayer();
         private string rootPath = (@"C:\Users\Colin\source\repos\MusicQuiz\MusicQuiz\Themes\");
-        private string theme = (@"Test\");
+        private string theme = (@"MovieQuotes1\");
         
         public MainWindow()
         {
             InitializeComponent();
-            SetAnswers();
+            SetAndHideAnswers();
         }
 
         private void PlaySound(string soundPath)
@@ -37,14 +37,14 @@ namespace MusicQuiz
             mediaPlayer.Play();
         }
 
-        string[] answers = System.IO.File.ReadAllLines(@"C:\Users\Colin\source\repos\MusicQuiz\MusicQuiz\Themes\Test\Answers.txt");
+        string[] answers = System.IO.File.ReadAllLines(@"C:\Users\Colin\source\repos\MusicQuiz\MusicQuiz\Themes\MovieQuotes1\Answers.txt");
 
         // Create a dropdown menu to change the theme.
 
-        private void SetAnswers()
+        private void SetAndHideAnswers()
         {
+            HideAnswers();
             answers = System.IO.File.ReadAllLines(rootPath + theme + "Answers.txt");
-
             Answer1.Text = answers[0];
             Answer2.Text = answers[1];
             Answer3.Text = answers[2];
@@ -82,19 +82,73 @@ namespace MusicQuiz
         private void Game1_Selected(object sender, RoutedEventArgs e)
         {
             theme = (@"Game1\");
-            SetAnswers();
-    }
+            SetAndHideAnswers();
+        }
 
         private void Test_Selected(object sender, RoutedEventArgs e)
         {
             theme = (@"Test\");
-            SetAnswers();
+            SetAndHideAnswers();
         }
 
         private void MovieQuiz1_Selected(object sender, RoutedEventArgs e)
         {
             theme = (@"MovieQuotes1\");
-            SetAnswers();
+            SetAndHideAnswers();
+        }
+        private void MovieQuiz2_Selected(object sender, RoutedEventArgs e)
+        {
+            theme = (@"MovieQuotes2\");
+            SetAndHideAnswers();
+        }
+
+        private void MovieQuiz3_Selected(object sender, RoutedEventArgs e)
+        {
+            theme = (@"MovieQuotes3\");
+            SetAndHideAnswers();
+        }
+
+        private void MovieQuiz4_Selected(object sender, RoutedEventArgs e)
+        {
+            theme = (@"MovieQuotes4\");
+            SetAndHideAnswers();
+        }
+
+        private void MovieQuiz5_Selected(object sender, RoutedEventArgs e)
+        {
+            theme = (@"MovieQuotes5\");
+            SetAndHideAnswers();
+        }
+
+        private void MovieQuiz6_Selected(object sender, RoutedEventArgs e)
+        {
+            theme = (@"MovieQuotes6\");
+            SetAndHideAnswers();
+        }
+
+        private void MovieQuiz7_Selected(object sender, RoutedEventArgs e)
+        {
+            theme = (@"MovieQuotes7\");
+            SetAndHideAnswers();
+        }
+
+        public void HideAnswers()
+        {
+            Answer1.Visibility = Visibility.Hidden;
+            Answer2.Visibility = Visibility.Hidden;
+            Answer3.Visibility = Visibility.Hidden;
+            Answer4.Visibility = Visibility.Hidden;
+            Answer5.Visibility = Visibility.Hidden;
+            Answer6.Visibility = Visibility.Hidden;
+            Answer7.Visibility = Visibility.Hidden;
+            Answer8.Visibility = Visibility.Hidden;
+            Answer9.Visibility = Visibility.Hidden;
+            Answer10.Visibility = Visibility.Hidden;
+        }
+
+        private void HideButton(object sender, RoutedEventArgs e)
+        {
+            HideAnswers();
         }
     }
 }

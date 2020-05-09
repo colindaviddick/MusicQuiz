@@ -95,59 +95,246 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Themes\Game1\1.wav" />
-    <Content Include="Themes\Game1\10.wav" />
-    <Content Include="Themes\Game1\2.wav" />
-    <Content Include="Themes\Game1\3.wav" />
-    <Content Include="Themes\Game1\4.wav" />
-    <Content Include="Themes\Game1\5.wav" />
-    <Content Include="Themes\Game1\6.wav" />
-    <Content Include="Themes\Game1\7.wav" />
-    <Content Include="Themes\Game1\8.wav" />
-    <Content Include="Themes\Game1\9.wav">
+    <Content Include="Themes\MovieQuotes1\1.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Resource Include="Themes\Test\Answers.txt">
+    <Content Include="Themes\MovieQuotes1\10.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes1\2.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes1\3.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes1\4.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes1\5.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes1\6.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes1\7.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes1\8.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes1\9.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes3\1.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes3\10.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes3\2.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes3\3.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes3\4.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes3\5.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes3\6.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes3\7.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes3\8.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes3\9.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes4\1.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes4\10.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes4\2.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes4\3.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes4\4.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes4\5.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes4\6.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes4\7.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes4\8.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes4\9.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes4\all-right-i%27m-gonna-ask-you-a-series-of-questions-just-relax-and-answer-them-as-simply-as-you-can.mp3" />
+    <Resource Include="Themes\MovieQuotes4\Answers.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Themes\Game1\Answers.txt">
+    <Content Include="Themes\MovieQuotes4\don%27t-you-ever-touch-a-black-man%27s-radio-boy-you-can-do-that-in-china-but-you%27ll-get-your-ass-killed-out-here-man.mp3" />
+    <Content Include="Themes\MovieQuotes4\hey-i%27ll-tell-you-what-you-can-take-a-good-look-at-a-butcher%27s-ass-by-sticking-your-head-up-there-but-wouldn%27t-you-rather-take-his-word-for-it.mp3" />
+    <Content Include="Themes\MovieQuotes4\i-don%27t-know-who-he-is-but-he%27s-burned-and-he-wears-a-weird-hat-and-a-red-and-green-sweater-really-dirty-and-he-uses-these-knives-like-giant-fingernails.mp3" />
+    <Content Include="Themes\MovieQuotes4\it%27s-not-right-for-a-woman-to-read-soon-she-starts-getting-ideas-and-thinking.mp3" />
+    <Content Include="Themes\MovieQuotes4\now-you-listen-to-me-jerk-off-if-you%27re-not-part-of-the-solution-you%27re-part-of-the-problem-quit-being-part-of-the-fucking-problem-and-put-the-other-guy-back-on!.mp3" />
+    <Content Include="Themes\MovieQuotes5\1.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes5\10.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes5\2.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes5\3.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes5\4.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes5\5.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes5\6.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes5\7.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes5\8.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes5\9.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes6\1.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes6\10.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes6\2.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes6\3.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes6\4.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes6\5.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes6\6.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes6\7.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes6\8.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes6\9.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes7\1.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes7\10.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes7\2.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes7\3.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes7\4.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes7\5.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes7\6.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes7\7.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes7\8.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes7\9.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Themes\MovieQuotes7\Answers.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Themes\MovieQuotes6\Answers.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Themes\MovieQuotes5\Answers.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Themes\MovieQuotes3\Answers.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Themes\MovieQuotes1\Answers.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="Themes\MovieQuotes2\1.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes2\10.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes2\2.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes2\3.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes2\4.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes2\5.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes2\6.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes2\7.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes2\8.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Themes\MovieQuotes2\9.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Themes\MovieQuotes2\Answers.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Images\filmreelRIGHT.png" />
     <Resource Include="Images\Movie-Transparent-PNG.png" />
-    <Content Include="Themes\Test\1.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Themes\Test\10.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Themes\Test\2.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Themes\Test\3.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Themes\Test\4.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Themes\Test\5.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Themes\Test\6.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Themes\Test\7.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Themes\Test\8.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Themes\Test\9.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Themes\MovieQuotes1\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -27,6 +27,10 @@
             <Setter Property="Foreground" Value="GhostWhite"/>
             <Setter Property="FontSize" Value="30"/>
             <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Width" Value="280"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
         </Style>
         <Style TargetType="TextBlock" BasedOn="{StaticResource Heading}" x:Key="QuestionHeader">
             <Setter Property="FontWeight" Value="DemiBold"/>
@@ -46,10 +50,15 @@
                               Focusable="False" IsReadOnly="True" 
                               VerticalAlignment="Center" Text="Select a Theme" 
                               Width="132" Margin="0 0 0 0">
-                        <ComboBoxItem x:Name="Game1" Selected="Game1_Selected">Game 1 (Letters)</ComboBoxItem>
-                        <ComboBoxItem x:Name="Test" Selected="Test_Selected">Test (Numbers)</ComboBoxItem>
-                        <ComboBoxItem x:Name="MovieQuiz1" Selected="MovieQuiz1_Selected">Movie Quiz 1</ComboBoxItem>
+                        <ComboBoxItem Selected="MovieQuiz1_Selected">Movie Quotes Quiz 1</ComboBoxItem>
+                        <ComboBoxItem Selected="MovieQuiz2_Selected">Movie Quotes Quiz 2</ComboBoxItem>
+                        <ComboBoxItem Selected="MovieQuiz3_Selected">Movie Quotes Quiz 3</ComboBoxItem>
+                        <ComboBoxItem Selected="MovieQuiz4_Selected">Movie Quotes Quiz 4</ComboBoxItem>
+                        <ComboBoxItem Selected="MovieQuiz5_Selected">Movie Quotes Quiz 5</ComboBoxItem>
+                        <ComboBoxItem Selected="MovieQuiz6_Selected">Movie Quotes Quiz 6</ComboBoxItem>
+                        <ComboBoxItem Selected="MovieQuiz7_Selected">Movie Quotes Quiz 7</ComboBoxItem>
                     </ComboBox>
+                    <Button Content="Hide Answers" Click="HideButton" Margin="5"/>
                 </StackPanel>
             <TextBlock Text="Question 1" Style="{StaticResource QuestionHeader}"/>
             <StackPanel Orientation="Horizontal" Margin="15 2 0 0">
@@ -97,7 +106,7 @@
                 <StackPanel Orientation="Horizontal" Margin="15 2 0 0">
                     <Button x:Name="Button7" Style="{StaticResource PlayButton}" Click="Button7_Click"/>
                     <Button x:Name="Button7Answer" Style="{StaticResource AnswerButton}" Click="Button7Answer_Click"/>
-                    <TextBlock x:Name="Answer7" Text="Answer7"  Visibility="Hidden"/>
+                    <TextBlock x:Name="Answer7" Text="Answer7" Style="{StaticResource Heading}" Visibility="Hidden"/>
                 </StackPanel>
 
                 <TextBlock Text="Question 8" Style="{StaticResource QuestionHeader}"/>
