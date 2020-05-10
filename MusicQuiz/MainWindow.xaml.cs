@@ -83,53 +83,62 @@ namespace MusicQuiz
         {
             theme = (@"Game1\");
             SetAndHideAnswers();
+            BGMovieQuote();
         }
 
         private void Test_Selected(object sender, RoutedEventArgs e)
         {
             theme = (@"Test\");
             SetAndHideAnswers();
+            BGMovieQuote();
         }
 
         private void MovieQuiz1_Selected(object sender, RoutedEventArgs e)
         {
             theme = (@"MovieQuotes1\");
             SetAndHideAnswers();
+            BGMovieQuote();
         }
         private void MovieQuiz2_Selected(object sender, RoutedEventArgs e)
         {
             theme = (@"MovieQuotes2\");
             SetAndHideAnswers();
+            BGMovieQuote();
         }
 
         private void MovieQuiz3_Selected(object sender, RoutedEventArgs e)
         {
             theme = (@"MovieQuotes3\");
             SetAndHideAnswers();
+            BGMovieQuote();
         }
 
         private void MovieQuiz4_Selected(object sender, RoutedEventArgs e)
         {
             theme = (@"MovieQuotes4\");
             SetAndHideAnswers();
+            BGMovieQuote();
         }
 
         private void MovieQuiz5_Selected(object sender, RoutedEventArgs e)
         {
             theme = (@"MovieQuotes5\");
             SetAndHideAnswers();
+            BGMovieQuote();
         }
 
         private void MovieQuiz6_Selected(object sender, RoutedEventArgs e)
         {
             theme = (@"MovieQuotes6\");
             SetAndHideAnswers();
+            BGMovieQuote();
         }
 
         private void MovieQuiz7_Selected(object sender, RoutedEventArgs e)
         {
             theme = (@"MovieQuotes7\");
             SetAndHideAnswers();
+            BGMovieQuote();
         }
 
         public void HideAnswers()
@@ -149,6 +158,81 @@ namespace MusicQuiz
         private void HideButton(object sender, RoutedEventArgs e)
         {
             HideAnswers();
+        }
+
+
+
+        private void BritpopIntros1_Selected(object sender, RoutedEventArgs e)
+        {
+            theme = (@"Britpop1\");
+            SetAndHideAnswers();
+            BGBritpop();
+        }
+
+        private void DanceMusic1_Selected(object sender, RoutedEventArgs e)
+        {
+            theme = (@"DanceMusic1\");
+            SetAndHideAnswers();
+            BGDanceMusic();
+        }
+
+        private void MovieScores1_Selected(object sender, RoutedEventArgs e)
+        {
+            theme = (@"MovieScores1\");
+            SetAndHideAnswers();
+            BGMovieScore();
+        }
+
+        private void Cartoons90s1_Selected(object sender, RoutedEventArgs e)
+        {
+            theme = (@"90sCartoons1\");
+            SetAndHideAnswers();
+            BGCartoon();
+        }
+
+        private void ClassicSongs1_Selected(object sender, RoutedEventArgs e)
+        {
+            theme = (@"ClassicSongs1\");
+            SetAndHideAnswers();
+            BGClassicSongs();
+        }
+
+        private void BGBritpop()
+        {
+            string packUri = "pack://application:,,,/MusicQuiz;component/Images/britpop.png";
+            BGImage.Source = new ImageSourceConverter().ConvertFromString(packUri) as ImageSource;
+        }
+
+        private void BGMovieQuote()
+        {
+            string packUri = "pack://application:,,,/MusicQuiz;component/Images/moviequote.png";
+            BGImage.Source = new ImageSourceConverter().ConvertFromString(packUri) as ImageSource;
+        }
+
+        private void BGMovieScore()
+        {
+            string packUri = "pack://application:,,,/MusicQuiz;component/Images/moviescore.png";
+            BGImage.Source = new ImageSourceConverter().ConvertFromString(packUri) as ImageSource;
+        }
+        private void BGDanceMusic()
+        {
+            string packUri = "pack://application:,,,/MusicQuiz;component/Images/dancemusic.png";
+            BGImage.Source = new ImageSourceConverter().ConvertFromString(packUri) as ImageSource;
+        }
+        private void BGCartoon()
+        {
+            string packUri = "pack://application:,,,/MusicQuiz;component/Images/cartoon.png";
+            BGImage.Source = new ImageSourceConverter().ConvertFromString(packUri) as ImageSource;
+        }
+        private void BGClassicSongs()
+        {
+            string packUri = "pack://application:,,,/MusicQuiz;component/Images/classicsongs.png";
+            BGImage.Source = new ImageSourceConverter().ConvertFromString(packUri) as ImageSource;
+        }
+
+        private void Silence(object sender, RoutedEventArgs e)
+        {
+            PlaySound(rootPath + "silence.mp3");
         }
     }
 }

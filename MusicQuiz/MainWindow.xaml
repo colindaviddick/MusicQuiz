@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MusicQuiz"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="Black">
+        Title="Quiz" Height="450" Width="800" Background="Black">
     <Window.Resources>
         <Style TargetType="Button" x:Key="PlayButton">
             <Setter Property="Width" Value="100"/>
@@ -22,50 +22,59 @@
             <Setter Property="Background" Value="Red"/>
             <Setter Property="Content" Value="?"/>
         </Style>
-               
+
         <Style TargetType="TextBlock" x:Key="Heading">
             <Setter Property="Foreground" Value="GhostWhite"/>
             <Setter Property="FontSize" Value="30"/>
             <Setter Property="FontWeight" Value="Bold"/>
             <Setter Property="TextWrapping" Value="Wrap"/>
             <Setter Property="FontSize" Value="20"/>
-            <Setter Property="Width" Value="280"/>
             <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
         </Style>
         <Style TargetType="TextBlock" BasedOn="{StaticResource Heading}" x:Key="QuestionHeader">
             <Setter Property="FontWeight" Value="DemiBold"/>
             <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Margin" Value="10 0 0 0"/>
 
         </Style>
-               
+
     </Window.Resources>
     <Grid>
-    <Image Source="Images\filmreelRIGHT.png" Opacity="0.5"></Image>
+        <Image x:Name="BGImage" Source="Images\moviequote.png" Opacity="0.5" Stretch="UniformToFill"></Image>
         <ScrollViewer>
-            
-        <StackPanel HorizontalAlignment="Center" Panel.ZIndex="50" Width="600" Background="#CC000000">
-                <StackPanel Orientation="Horizontal" Width="500">
-                    <TextBlock Style="{StaticResource Heading}"><Run Text="TV "/><Run Text="&amp; "/><Run Text="Movie Quiz"/></TextBlock>
+            <StackPanel HorizontalAlignment="Center" Panel.ZIndex="50" Width="600" Background="#7A000000">
+                <StackPanel Width="600" Orientation="Horizontal" HorizontalAlignment="Right">
+                    <TextBlock Style="{StaticResource Heading}" Text="Quiz" Margin="20 0 250 0" FontSize="40"/>
                     <ComboBox x:Name="ThemeSelector" 
                               Focusable="False" IsReadOnly="True" 
-                              VerticalAlignment="Center" Text="Select a Theme" 
-                              Width="132" Margin="0 0 0 0">
-                        <ComboBoxItem Selected="MovieQuiz1_Selected">Movie Quotes Quiz 1</ComboBoxItem>
-                        <ComboBoxItem Selected="MovieQuiz2_Selected">Movie Quotes Quiz 2</ComboBoxItem>
-                        <ComboBoxItem Selected="MovieQuiz3_Selected">Movie Quotes Quiz 3</ComboBoxItem>
-                        <ComboBoxItem Selected="MovieQuiz4_Selected">Movie Quotes Quiz 4</ComboBoxItem>
-                        <ComboBoxItem Selected="MovieQuiz5_Selected">Movie Quotes Quiz 5</ComboBoxItem>
-                        <ComboBoxItem Selected="MovieQuiz6_Selected">Movie Quotes Quiz 6</ComboBoxItem>
-                        <ComboBoxItem Selected="MovieQuiz7_Selected">Movie Quotes Quiz 7</ComboBoxItem>
+                              VerticalAlignment="Top" Text="Select a Theme" 
+                              Width="132" Margin="0 5 0 0"
+                              HorizontalAlignment="Right">
+                        <ComboBoxItem Selected="BritpopIntros1_Selected">Britpop Intros</ComboBoxItem>
+                        <ComboBoxItem Selected="Cartoons90s1_Selected">90s Cartoons</ComboBoxItem>
+                        <ComboBoxItem Selected="ClassicSongs1_Selected">Classic Songs</ComboBoxItem>
+                        <ComboBoxItem Selected="DanceMusic1_Selected">Dance Music</ComboBoxItem>
+                        <ComboBoxItem Selected="MovieQuiz1_Selected">Movie Quotes 1</ComboBoxItem>
+                        <ComboBoxItem Selected="MovieQuiz2_Selected">Movie Quotes 2</ComboBoxItem>
+                        <ComboBoxItem Selected="MovieQuiz3_Selected">Movie Quotes 3</ComboBoxItem>
+                        <ComboBoxItem Selected="MovieQuiz4_Selected">Movie Quotes 4</ComboBoxItem>
+                        <ComboBoxItem Selected="MovieQuiz5_Selected">Movie Quotes 5</ComboBoxItem>
+                        <ComboBoxItem Selected="MovieQuiz6_Selected">Movie Quotes 6</ComboBoxItem>
+                        <ComboBoxItem Selected="MovieQuiz7_Selected">Movie Quotes 7</ComboBoxItem>
+                        <ComboBoxItem Selected="MovieScores1_Selected">Movie Scores</ComboBoxItem>
                     </ComboBox>
-                    <Button Content="Hide Answers" Click="HideButton" Margin="5"/>
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Right">
+                        <Button Content="Hide" Click="HideButton" Margin="5" Style="{StaticResource PlayButton}" HorizontalAlignment="Right"/>
+                        <Button Content="Silence" Click="Silence" Margin="5" Style="{StaticResource AnswerButton}" HorizontalAlignment="Right"/>
+                    </StackPanel>
                 </StackPanel>
-            <TextBlock Text="Question 1" Style="{StaticResource QuestionHeader}"/>
-            <StackPanel Orientation="Horizontal" Margin="15 2 0 0">
-                <Button x:Name="Button1" Style="{StaticResource PlayButton}" Click="Button1_Click"/>
-                <Button x:Name="Button1Answer" Style="{StaticResource AnswerButton}" Click="Button1Answer_Click"/>
-                <TextBlock x:Name="Answer1" Text="Answer1" Style="{StaticResource Heading}" Visibility="Hidden"/>
-            </StackPanel>
+                <TextBlock Text="Question 1" Style="{StaticResource QuestionHeader}"/>
+                <StackPanel Orientation="Horizontal" Margin="15 2 0 0">
+                    <Button x:Name="Button1" Style="{StaticResource PlayButton}" Click="Button1_Click"/>
+                    <Button x:Name="Button1Answer" Style="{StaticResource AnswerButton}" Click="Button1Answer_Click"/>
+                    <TextBlock x:Name="Answer1" Text="Answer1" Style="{StaticResource Heading}" Visibility="Hidden"/>
+                </StackPanel>
 
                 <TextBlock Text="Question 2" Style="{StaticResource QuestionHeader}"/>
                 <StackPanel Orientation="Horizontal" Margin="15 2 0 0">
@@ -130,8 +139,6 @@
                     <TextBlock x:Name="Answer10" Text="Answer1" Style="{StaticResource Heading}" Visibility="Hidden"/>
                 </StackPanel>
             </StackPanel>
-            
-            
         </ScrollViewer>
     </Grid>
 </Window>
